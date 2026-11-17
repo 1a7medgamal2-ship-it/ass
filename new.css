@@ -1,0 +1,34 @@
+.a {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+
+.a span {
+    color: orange;
+    font-size: 45px;
+}
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border:5px yellow solid ;
+    
+
+}
+/* div{
+    float: left;
+    text-align: center;
+    padding: 20px;
+} */
+ div{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    gap:20px ;
+    
+ }
+
